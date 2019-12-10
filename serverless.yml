@@ -1,0 +1,25 @@
+service: scorebot-processing
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  move-to-s3:
+    handler: moveToS3.handler
+    events:
+      - http:
+          path: scores
+          method: post
+          cors: true
+
+  recognize-scores:
+    handler: recognizeScores.handler
+    events:
+      - s3:
+          bucket: tf-mars-scores-pics
+          event: s3:ObjectCreated:*
+          rules:
+          - suffix: .jpeg
