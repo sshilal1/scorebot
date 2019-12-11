@@ -18,7 +18,10 @@ const createGameData = (rawData, playerOrder) => {
   }
 
   let detectIterator = 3;
-  const firstScore = rawData[detectIterator].DetectedText.split(" ");
+  const firstScore = rawData[detectIterator].DetectedText.replace(
+    /O/gi,
+    "0"
+  ).split(" ");
   gameObject[playerOrder[0]] = firstScore;
 
   if (firstScore.length >= 7) {
@@ -28,14 +31,19 @@ const createGameData = (rawData, playerOrder) => {
     if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
-      gameObject[playerOrder[0]].push(rawData[detectIterator].DetectedText);
+      gameObject[playerOrder[0]].push(
+        rawData[detectIterator].DetectedText.replace(/O/gi, "0")
+      );
     } else {
       return new Error("Error parsing first line score");
     }
   }
   detectIterator++;
 
-  const secondScore = rawData[detectIterator].DetectedText.split(" ");
+  const secondScore = rawData[detectIterator].DetectedText.replace(
+    /O/gi,
+    "0"
+  ).split(" ");
   gameObject[playerOrder[1]] = secondScore;
 
   if (secondScore.length >= 7) {
@@ -45,14 +53,19 @@ const createGameData = (rawData, playerOrder) => {
     if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
-      gameObject[playerOrder[1]].push(rawData[detectIterator].DetectedText);
+      gameObject[playerOrder[1]].push(
+        rawData[detectIterator].DetectedText.replace(/O/gi, "0")
+      );
     } else {
       return new Error("Error parsing second line score");
     }
   }
   detectIterator++;
 
-  const thirdScore = rawData[detectIterator].DetectedText.split(" ");
+  const thirdScore = rawData[detectIterator].DetectedText.replace(
+    /O/gi,
+    "0"
+  ).split(" ");
   gameObject[playerOrder[2]] = thirdScore;
 
   if (thirdScore.length >= 7) {
@@ -62,14 +75,19 @@ const createGameData = (rawData, playerOrder) => {
     if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
-      gameObject[playerOrder[2]].push(rawData[detectIterator].DetectedText);
+      gameObject[playerOrder[2]].push(
+        rawData[detectIterator].DetectedText.replace(/O/gi, "0")
+      );
     } else {
       return new Error("Error parsing third line score");
     }
   }
   detectIterator++;
 
-  const fourthScore = rawData[detectIterator].DetectedText.split(" ");
+  const fourthScore = rawData[detectIterator].DetectedText.replace(
+    /O/gi,
+    "0"
+  ).split(" ");
   gameObject[playerOrder[3]] = fourthScore;
 
   if (fourthScore.length >= 7) {
@@ -79,7 +97,9 @@ const createGameData = (rawData, playerOrder) => {
     if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
-      gameObject[playerOrder[3]].push(rawData[detectIterator].DetectedText);
+      gameObject[playerOrder[3]].push(
+        rawData[detectIterator].DetectedText.replace(/O/gi, "0")
+      );
     } else {
       return new Error("Error parsing fourth line score");
     }
