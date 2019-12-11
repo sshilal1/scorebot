@@ -11,7 +11,16 @@ exports.handler = (event, context, callback) => {
   console.log(eventBody);
 
   const imageUrl = eventBody.attachments[0].url;
-  const bucketKey = imageUrl + ".jpeg";
+  const playersString =
+    eventBody.players[1] +
+    "111" +
+    eventBody.players[2] +
+    "111" +
+    eventBody.players[3] +
+    "111" +
+    eventBody.players[4] +
+    "111";
+  const bucketKey = playersString + imageUrl.replace("/", "") + ".jpeg";
 
   request.get(imageUrl, function(err, res, body) {
     var params = {
