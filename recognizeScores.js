@@ -28,7 +28,7 @@ const createGameData = (rawData, playerOrder) => {
     console.log("good first line");
   } else if (firstScore.length == 6) {
     console.log("missing 1 score from first line");
-    if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
+    if (rawData[detectIterator + 1].DetectedText.split(" ").length <= 2) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
       gameObject[playerOrder[0]].push(
@@ -50,7 +50,7 @@ const createGameData = (rawData, playerOrder) => {
     console.log("good second line");
   } else if (secondScore.length == 6) {
     console.log("missing 1 score from second line");
-    if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
+    if (rawData[detectIterator + 1].DetectedText.split(" ").length <= 2) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
       gameObject[playerOrder[1]].push(
@@ -72,7 +72,7 @@ const createGameData = (rawData, playerOrder) => {
     console.log("good third line");
   } else if (thirdScore.length == 6) {
     console.log("missing 1 score from third line");
-    if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
+    if (rawData[detectIterator + 1].DetectedText.split(" ").length <= 2) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
       gameObject[playerOrder[2]].push(
@@ -94,7 +94,7 @@ const createGameData = (rawData, playerOrder) => {
     console.log("good fourth line");
   } else if (fourthScore.length == 6) {
     console.log("missing 1 score from fourth line");
-    if (rawData[detectIterator + 1].DetectedText.split(" ").length == 1) {
+    if (rawData[detectIterator + 1].DetectedText.split(" ").length <= 2) {
       console.log("found 1 on next line, should be good");
       detectIterator++;
       gameObject[playerOrder[3]].push(
