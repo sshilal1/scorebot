@@ -11,7 +11,7 @@ const createGameData = (rawData, playerOrder) => {
   // Now we can process
   let gameObject = {};
 
-  if (rawData[2].DetectedText == "RATING") {
+  if (rawData[2].DetectedText.includes("RATING")) {
     console.log("Successfully parsed heading text");
   } else {
     return new Error("Error parsing heading text");
