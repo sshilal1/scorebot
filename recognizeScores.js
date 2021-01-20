@@ -11,13 +11,16 @@ const createGameData = (rawData, playerOrder) => {
   // Now we can process
   let gameObject = {};
 
-  if (rawData[2].DetectedText.includes("RATING")) {
+  if (rawData[1].DetectedText.includes("RATING")) {
     console.log("Successfully parsed heading text");
+    let detectIterator = 2;
+  } else if (rawData[2].DetectedText.includes("RATING")) {
+    console.log("Successfully parsed heading text");
+    let detectIterator = 3;
   } else {
     return new Error("Error parsing heading text");
   }
 
-  let detectIterator = 3;
   const firstScore = rawData[detectIterator].DetectedText.replace(
     /O/gi,
     "0"
@@ -123,19 +126,19 @@ exports.handler = async (event, context, callback) => {
     Image: {
       S3Object: {
         Bucket: srcBucket,
-        Name: srcKey
-      }
-    }
+        Name: srcKey,
+      },
+    },
   };
 
   const imageText = await rekognition
     .detectText(params)
     .promise()
-    .then(function(data) {
+    .then(function (data) {
       console.log("got data from rekognition", data);
       return data;
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return err;
     });
 
@@ -150,14 +153,14 @@ exports.handler = async (event, context, callback) => {
     headers: { "Content-Type": "application/javascript" },
     body: JSON.stringify({
       text: "imageProcessed",
-      data: processedData
-    })
+      data: processedData,
+    }),
   };
 
   console.log("preparing to send to gscripts", options);
 
   const postToGScripts = await new Promise((resolve, reject) => {
-    request(options, function(error, response, body) {
+    request(options, function (error, response, body) {
       if (error) reject(error);
 
       console.log(body);
