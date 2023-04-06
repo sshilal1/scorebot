@@ -1,0 +1,685 @@
+[
+  {
+    "DetectedText": "HAVEN",
+    "Type": "LINE",
+    "Id": 0,
+    "Confidence": 95.71684265136719,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "SCOREBOARD",
+    "Type": "LINE",
+    "Id": 1,
+    "Confidence": 99.91089630126953,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "TERRAFORMING",
+    "Type": "LINE",
+    "Id": 2,
+    "Confidence": 99.52291870117188,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "AWARDS",
+    "Type": "LINE",
+    "Id": 3,
+    "Confidence": 99.9782943725586,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "MILESTONES",
+    "Type": "LINE",
+    "Id": 4,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "GREENERY",
+    "Type": "LINE",
+    "Id": 5,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "CITY",
+    "Type": "LINE",
+    "Id": 6,
+    "Confidence": 99.92058563232422,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "VICTORY POINTS",
+    "Type": "LINE",
+    "Id": 7,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "TOTAL",
+    "Type": "LINE",
+    "Id": 8,
+    "Confidence": 99.91238403320312,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "RATING",
+    "Type": "LINE",
+    "Id": 9,
+    "Confidence": 99.94049835205078,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "studmuff14",
+    "Type": "LINE",
+    "Id": 10,
+    "Confidence": 98.6157455444336,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "40",
+    "Type": "LINE",
+    "Id": 11,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "LINE",
+    "Id": 12,
+    "Confidence": 98.37713623046875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "LINE",
+    "Id": 13,
+    "Confidence": 99.64021301269531,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "3",
+    "Type": "LINE",
+    "Id": 14,
+    "Confidence": 98.35453796386719,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "3",
+    "Type": "LINE",
+    "Id": 15,
+    "Confidence": 98.55691528320312,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "22",
+    "Type": "LINE",
+    "Id": 16,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "80",
+    "Type": "LINE",
+    "Id": 17,
+    "Confidence": 99.98824310302734,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "Copenhagan",
+    "Type": "LINE",
+    "Id": 18,
+    "Confidence": 99.4185562133789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "31",
+    "Type": "LINE",
+    "Id": 19,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "LINE",
+    "Id": 20,
+    "Confidence": 99.87598419189453,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "LINE",
+    "Id": 21,
+    "Confidence": 99.17388916015625,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "LINE",
+    "Id": 22,
+    "Confidence": 98.62247467041016,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "12",
+    "Type": "LINE",
+    "Id": 23,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "LINE",
+    "Id": 24,
+    "Confidence": 99.0406265258789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "67",
+    "Type": "LINE",
+    "Id": 25,
+    "Confidence": 99.66021728515625,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "54",
+    "Type": "LINE",
+    "Id": 26,
+    "Confidence": 99.56385803222656,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "shilale45",
+    "Type": "LINE",
+    "Id": 27,
+    "Confidence": 99.30535888671875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "31",
+    "Type": "LINE",
+    "Id": 28,
+    "Confidence": 99.56425476074219,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "LINE",
+    "Id": 29,
+    "Confidence": 98.77609252929688,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "O",
+    "Type": "LINE",
+    "Id": 30,
+    "Confidence": 80.1910171508789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "2",
+    "Type": "LINE",
+    "Id": 31,
+    "Confidence": 99.45484924316406,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "LINE",
+    "Id": 32,
+    "Confidence": 99.7684326171875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "22",
+    "Type": "LINE",
+    "Id": 33,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "67",
+    "Type": "LINE",
+    "Id": 34,
+    "Confidence": 99.68340301513672,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "41",
+    "Type": "LINE",
+    "Id": 35,
+    "Confidence": 99.25968170166016,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "Rainstorm520",
+    "Type": "LINE",
+    "Id": 36,
+    "Confidence": 98.64015197753906,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "30",
+    "Type": "LINE",
+    "Id": 37,
+    "Confidence": 99.77120971679688,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "2",
+    "Type": "LINE",
+    "Id": 38,
+    "Confidence": 99.7878646850586,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "LINE",
+    "Id": 39,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "4",
+    "Type": "LINE",
+    "Id": 40,
+    "Confidence": 99.03546905517578,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "6",
+    "Type": "LINE",
+    "Id": 41,
+    "Confidence": 99.11275482177734,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "19",
+    "Type": "LINE",
+    "Id": 42,
+    "Confidence": 99.41447448730469,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "66",
+    "Type": "LINE",
+    "Id": 43,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "DONE",
+    "Type": "LINE",
+    "Id": 44,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "HAVEN",
+    "Type": "WORD",
+    "Id": 45,
+    "ParentId": 0,
+    "Confidence": 95.71684265136719,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "SCOREBOARD",
+    "Type": "WORD",
+    "Id": 46,
+    "ParentId": 1,
+    "Confidence": 99.91089630126953,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "TERRAFORMING",
+    "Type": "WORD",
+    "Id": 47,
+    "ParentId": 2,
+    "Confidence": 99.52291870117188,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "AWARDS",
+    "Type": "WORD",
+    "Id": 48,
+    "ParentId": 3,
+    "Confidence": 99.9782943725586,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "MILESTONES",
+    "Type": "WORD",
+    "Id": 49,
+    "ParentId": 4,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "GREENERY",
+    "Type": "WORD",
+    "Id": 50,
+    "ParentId": 5,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "CITY",
+    "Type": "WORD",
+    "Id": 51,
+    "ParentId": 6,
+    "Confidence": 99.92058563232422,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "VICTORY",
+    "Type": "WORD",
+    "Id": 52,
+    "ParentId": 7,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "POINTS",
+    "Type": "WORD",
+    "Id": 53,
+    "ParentId": 7,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "TOTAL",
+    "Type": "WORD",
+    "Id": 54,
+    "ParentId": 8,
+    "Confidence": 99.91238403320312,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "RATING",
+    "Type": "WORD",
+    "Id": 55,
+    "ParentId": 9,
+    "Confidence": 99.94049835205078,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "studmuff14",
+    "Type": "WORD",
+    "Id": 56,
+    "ParentId": 10,
+    "Confidence": 98.6157455444336,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "40",
+    "Type": "WORD",
+    "Id": 57,
+    "ParentId": 11,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "WORD",
+    "Id": 58,
+    "ParentId": 12,
+    "Confidence": 98.37713623046875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "WORD",
+    "Id": 59,
+    "ParentId": 13,
+    "Confidence": 99.64021301269531,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "3",
+    "Type": "WORD",
+    "Id": 60,
+    "ParentId": 14,
+    "Confidence": 98.35453796386719,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "3",
+    "Type": "WORD",
+    "Id": 61,
+    "ParentId": 15,
+    "Confidence": 98.55691528320312,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "22",
+    "Type": "WORD",
+    "Id": 62,
+    "ParentId": 16,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "80",
+    "Type": "WORD",
+    "Id": 63,
+    "ParentId": 17,
+    "Confidence": 99.98824310302734,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "Copenhagan",
+    "Type": "WORD",
+    "Id": 64,
+    "ParentId": 18,
+    "Confidence": 99.4185562133789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "31",
+    "Type": "WORD",
+    "Id": 65,
+    "ParentId": 19,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "WORD",
+    "Id": 66,
+    "ParentId": 20,
+    "Confidence": 99.87598419189453,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "WORD",
+    "Id": 67,
+    "ParentId": 21,
+    "Confidence": 99.17388916015625,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "WORD",
+    "Id": 68,
+    "ParentId": 22,
+    "Confidence": 98.62247467041016,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "12",
+    "Type": "WORD",
+    "Id": 69,
+    "ParentId": 23,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "WORD",
+    "Id": 70,
+    "ParentId": 24,
+    "Confidence": 99.0406265258789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "67",
+    "Type": "WORD",
+    "Id": 71,
+    "ParentId": 25,
+    "Confidence": 99.66021728515625,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "54",
+    "Type": "WORD",
+    "Id": 72,
+    "ParentId": 26,
+    "Confidence": 99.56385803222656,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "shilale45",
+    "Type": "WORD",
+    "Id": 73,
+    "ParentId": 27,
+    "Confidence": 99.30535888671875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "31",
+    "Type": "WORD",
+    "Id": 74,
+    "ParentId": 28,
+    "Confidence": 99.56425476074219,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "7",
+    "Type": "WORD",
+    "Id": 75,
+    "ParentId": 29,
+    "Confidence": 98.77609252929688,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "O",
+    "Type": "WORD",
+    "Id": 76,
+    "ParentId": 30,
+    "Confidence": 80.1910171508789,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "2",
+    "Type": "WORD",
+    "Id": 77,
+    "ParentId": 31,
+    "Confidence": 99.45484924316406,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "WORD",
+    "Id": 78,
+    "ParentId": 32,
+    "Confidence": 99.7684326171875,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "22",
+    "Type": "WORD",
+    "Id": 79,
+    "ParentId": 33,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "67",
+    "Type": "WORD",
+    "Id": 80,
+    "ParentId": 34,
+    "Confidence": 99.68340301513672,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "41",
+    "Type": "WORD",
+    "Id": 81,
+    "ParentId": 35,
+    "Confidence": 99.25968170166016,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "Rainstorm520",
+    "Type": "WORD",
+    "Id": 82,
+    "ParentId": 36,
+    "Confidence": 98.64015197753906,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "30",
+    "Type": "WORD",
+    "Id": 83,
+    "ParentId": 37,
+    "Confidence": 99.77120971679688,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "2",
+    "Type": "WORD",
+    "Id": 84,
+    "ParentId": 38,
+    "Confidence": 99.7878646850586,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "5",
+    "Type": "WORD",
+    "Id": 85,
+    "ParentId": 39,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "4",
+    "Type": "WORD",
+    "Id": 86,
+    "ParentId": 40,
+    "Confidence": 99.03546905517578,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "6",
+    "Type": "WORD",
+    "Id": 87,
+    "ParentId": 41,
+    "Confidence": 99.11275482177734,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "19",
+    "Type": "WORD",
+    "Id": 88,
+    "ParentId": 42,
+    "Confidence": 99.41447448730469,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "66",
+    "Type": "WORD",
+    "Id": 89,
+    "ParentId": 43,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  },
+  {
+    "DetectedText": "DONE",
+    "Type": "WORD",
+    "Id": 90,
+    "ParentId": 44,
+    "Confidence": 100,
+    "Geometry": ["Object"]
+  }
+]
